@@ -1,0 +1,75 @@
+
+body{
+    margin: 0;
+    max-width: 100%;
+    background-color: rgb(253, 253, 253);
+}
+.card{
+    border:0;
+}
+
+#password + .glyphicon {
+    cursor: pointer;
+    pointer-events: all;
+}
+.col-lg-12 ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.checked {
+    color: orange;
+  }
+
+.col-lg-12 ul li a:hover {
+    color: #797070;
+
+}
+
+.center a {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #326ef1;
+    text-decoration: none;
+    font-family: Arial;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center a:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+    font-family: Arial;
+    color: #326ef1;
+    border-color: #326ef1;
+
+}
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
